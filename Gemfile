@@ -14,6 +14,7 @@ gem "less-rails"
 gem 'figaro'
 
 group :development, :test do
+  gem 'faraday'
   gem 'pry'
   gem 'rspec-rails', '~>3.0'
   gem 'capybara'
