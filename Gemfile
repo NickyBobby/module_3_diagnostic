@@ -16,6 +16,8 @@ gem 'figaro'
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails', '~>3.0'
+  gem 'capybara'
+  gem 'launchy'
 end
 
 group :development do
